@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Playfair+Display:ital,wght@0,600;1,400&family=Montserrat:wght@500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fff8fa;
+    font-size: 14px;
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #231F20;
+    overflow: auto;
+}
+
+a {
+    color: #d81b60;
+    font-size: 14px;
+}
+
+#main {
+    width: 100%;
+}
+
+#wrap {
+    position: relative;
+    margin: 0 auto;
+    width: 1100px;
+    height: 680px;
+    margin-top: 10px;
+}
+
+#text {
+    width: 460px;
+    height: 400px;
+    left: 60px;
+    top: 50px;
+    position: absolute;
+}
+
+#code {
+    display: none;
+    font-size: 24px;
+    font-family: 'Caveat', 'Playfair Display', Georgia, serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+#clock-box {
+    position: absolute;
+    left: 60px;
+    top: 485px;
+    font-size: 26px;
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #ad1457;
+    display: none;
+}
+
+#clock-box a {
+    font-size: 26px;
+    text-decoration: none;
+}
+
+#clock {
+    margin-left: 0px;
+    margin-top: 10px;
+    font-family: 'Playfair Display', Georgia, serif;
+    color: #c2185b;
+}
+
+#clock .digit {
+    font-size: 64px;
+    font-family: 'Caveat', 'Playfair Display', serif;
+    font-weight: 700;
+    color: #ff1744;
+    text-shadow: 0 0 12px rgba(255, 23, 68, 0.4);
+    margin: 0 4px;
+}
+
+#canvas {
+    margin: 0 auto;
+    width: 1100px;
+    height: 680px;
+}
+
+#error {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 60px;
+    display: none;
+    color: #d81b60;
+    font-weight: bold;
+}
+
+.hand {
+    cursor: pointer;
+}
+
+.say {
+    margin-left: 0px;
+    display: inline-block;
+    letter-spacing: 0.3px;
+}
+
+.space {
+    margin-right: 150px;
+}
+
+.STYLE1 {
+    color: #d81b60;
+    font-style: italic;
+}
+
